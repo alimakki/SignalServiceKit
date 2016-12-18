@@ -22,5 +22,6 @@ extern NSError *OWSErrorWithCodeDescription(OWSErrorCode code, NSString *descrip
 extern NSError *OWSErrorMakeUnableToProcessServerResponseError();
 extern NSError *OWSErrorMakeFailedToSendOutgoingMessageError();
 extern NSError *OWSErrorMakeNoSuchSignalRecipientError();
+extern NSError *OWSErrorMakeAssertionError();
 
 NS_ASSUME_NONNULL_END
